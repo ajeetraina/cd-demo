@@ -1,6 +1,6 @@
   env.DOCKERHUB_USERNAME = 'vipconsult'
 
-  node("docker-test") {
+  node("manager1") {
     checkout scm
 
     stage("Unit Test") {
